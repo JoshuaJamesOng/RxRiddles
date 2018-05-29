@@ -10,5 +10,5 @@ object Riddle18 {
    */
   fun solve(first: Observable<Int>, second: Observable<Int>): Observable<Int> =
     Observable.amb(listOf(first, second))
-  
+
 }
