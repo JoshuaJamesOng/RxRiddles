@@ -9,5 +9,5 @@ object Riddle13 {
    * Use case: You only want to observe changes of a value but don't care if the same value has been emitted consecutively.
    */
   fun solve(source: Observable<Int>): Observable<Int> = source.distinctUntilChanged()
-  
+
 }
