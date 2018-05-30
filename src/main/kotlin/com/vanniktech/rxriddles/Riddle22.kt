@@ -6,7 +6,7 @@ object Riddle22 {
 
   private const val WIDTH = 3
   private const val COUNT = 2
-  
+
   /**
    * Group emissions of the [source] always in a list of 2 elements and skip every third element.
    *
