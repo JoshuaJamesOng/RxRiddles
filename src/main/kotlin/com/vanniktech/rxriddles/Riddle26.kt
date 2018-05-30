@@ -10,5 +10,5 @@ object Riddle26 {
    * Use case: Delay emission of events to simulate some indication.
    */
   fun solve(source: Observable<Long>): Observable<Long> = source.delay(300, TimeUnit.MILLISECONDS)
-  
+
 }
