@@ -9,5 +9,5 @@ object Riddle27 {
    * Use case: Add some logging.
    */
   fun solve(source: Observable<Long>, function: (Long) -> Unit): Observable<Long> = source.doOnNext(function)
-  
+
 }
