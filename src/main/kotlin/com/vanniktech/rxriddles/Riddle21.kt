@@ -10,5 +10,5 @@ object Riddle21 {
    */
   fun solve(source: Observable<Int>): Int =
     source.blockingFirst()
-  
+
 }
